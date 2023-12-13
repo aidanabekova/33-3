@@ -12,6 +12,10 @@ printDelimiter()
 
 //for..of
 var children = [2007, 1994, 2021, 2003, 2010, 2015, 1998, 2019, 2000, 2013, 2022, 2007, 2015]
+// for(var child2 in children){
+//     console.log(child2)
+// }
+
 var currentYear = 2023
 var gifts = 0
 for(var child of children){
