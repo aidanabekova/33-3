@@ -43,7 +43,7 @@ function findMax (array){
 
 findMax([2,5,80, 5,5,5,5,5,55,5,5])
 
-var sumArray = (array) =>{
+var sumArray = (array) => {
     var sum = 0
     for (var i = 0; i < array.length; i++) {
         sum += array[i]
@@ -67,8 +67,7 @@ var button = document.getElementById('btn')
 //tag
 var button2 =  document.querySelector('button')
 // button2.style.width = '600px'
-button2.addEventListener('click', () => console.log('Клик по кнопке')
-)
+button2.addEventListener('click', () => console.log('Клик по кнопке'))
 //lambda - функция в одну строку
 
 //обработка событий
